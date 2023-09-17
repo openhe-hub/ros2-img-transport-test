@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="image_transport_test" exec="publisher_node" name="img_publisher" output="screen" />
+    <node pkg="image_transport_test" exec="subscriber_node" name="img_subscriber" output="screen" />
+</launch>
